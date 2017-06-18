@@ -1,6 +1,117 @@
 /* BUILT BY REXSDEV.COM, BUILDING FOR THE SIMPLEX PROJECT. BASED TO BE IN THE SIMPLEX LANDING */
+body {
+  background-color: #222;
+}
+
 .header {
-  -webkit-animation: rainbow 1s infinite;
-  -ms-animation: rainbow 1s infinite;
-  animation: rainbow 1s infinite;
+  -webkit-animation: rainbow 5s infinite;
+  -ms-animation: rainbow 5s infinite;
+  animation: rainbow 5s infinite;
+}
+
+.header pre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: #dd00f3;
+  }
+  12% {
+    color: #ff2400;
+  }
+  24% {
+    color: #e81d1d;
+  }
+  36% {
+    color: #e8b71d;
+  }
+  48% {
+    color: #e3e81d;
+  }
+  60% {
+    color: #1de840;
+  }
+  72% {
+    color: #1ddde8;
+  }
+  82% {
+    color: #2b1de8;
+  }
+  94% {
+    color: #dd00f3;
+  }
+  100% {
+    color: #dd00f3;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow {
+  0% {
+    color: #dd00f3;
+  }
+  12% {
+    color: #ff2400;
+  }
+  24% {
+    color: #e81d1d;
+  }
+  36% {
+    color: #e8b71d;
+  }
+  48% {
+    color: #e3e81d;
+  }
+  60% {
+    color: #1de840;
+  }
+  72% {
+    color: #1ddde8;
+  }
+  82% {
+    color: #2b1de8;
+  }
+  94% {
+    color: #dd00f3;
+  }
+  100% {
+    color: #dd00f3;
+  }
+}
+
+/* Standar Syntax */
+@keyframes rainbow {
+  0% {
+    color: #dd00f3;
+  }
+  12% {
+    color: #ff2400;
+  }
+  24% {
+    color: #e81d1d;
+  }
+  36% {
+    color: #e8b71d;
+  }
+  48% {
+    color: #e3e81d;
+  }
+  60% {
+    color: #1de840;
+  }
+  72% {
+    color: #1ddde8;
+  }
+  82% {
+    color: #2b1de8;
+  }
+  94% {
+    color: #dd00f3;
+  }
+  100% {
+    color: #dd00f3;
+  }
 }
