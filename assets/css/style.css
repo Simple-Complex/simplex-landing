@@ -1,0 +1,6 @@
+/* BUILT BY REXSDEV.COM, BUILDING FOR THE SIMPLEX PROJECT. BASED TO BE IN THE SIMPLEX LANDING */
+.header {
+  -webkit-animation: rainbow 1s infinite;
+  -ms-animation: rainbow 1s infinite;
+  animation: rainbow 1s infinite;
+}
